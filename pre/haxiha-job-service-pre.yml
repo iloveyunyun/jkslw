@@ -6,7 +6,7 @@ elasticsearch:
     port: 9301
     zk:
         #连接Zookeeper服务器的列表. 包括IP地址和端口号
-        serverLists: 172.16.1.244
+        serverLists: 172.16.1.244:2181
         #命名空间.
         namespace: dubbo
         #连接Zookeeper的权限令牌. 缺省为不需要权限验证.
