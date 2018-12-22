@@ -4,6 +4,7 @@ elasticsearch:
     ip: 172.16.1.241
     pool: 10
     port: 9301
+elastic:
     zk:
         #连接Zookeeper服务器的列表. 包括IP地址和端口号
         serverLists: 172.16.1.244:2181
