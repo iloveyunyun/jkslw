@@ -1,4 +1,3 @@
-
 elasticsearch:
     cluster:
         name: haxiha-es
