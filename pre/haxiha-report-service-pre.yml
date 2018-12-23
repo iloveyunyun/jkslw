@@ -187,6 +187,7 @@ swagger:
     version: 1.1.0.RELEASE
 info:
     group: 君凯技术中心
-    description: 人生快不快乐看心情，幸不幸福看心态。漫长人生中，什么都不是一眼看到头的，一时的春风得意算不了什么，一时的失败也不能算数。觉得自己做得到和做不到，只在一念之间。
+    description: 您得相信，有志者事竟成。古人告诫说：“天国是努力进入的”。只有当勉为其难地一步步向它走去的时候，才必须勉为其难地一步步走下去，才必须勉为其难地去达到它。——果戈理
     members: all boys
     tell: 400-900-2165
+    module: haxiha-report-service
