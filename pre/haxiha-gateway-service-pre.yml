@@ -187,6 +187,7 @@ swagger:
     version: 1.1.0.RELEASE
 info:
     group: 君凯技术中心
-    description: 人生快不快乐看心情，幸不幸福看心态。漫长人生中，什么都不是一眼看到头的，一时的春风得意算不了什么，一时的失败也不能算数。觉得自己做得到和做不到，只在一念之间。
+    description: 有想法就要行动，哪怕失败告终，拖拉会让你丧失机会。想法只有化作行动，才有达成愿望的可能，否则想法永远是想法。没有想法的人，不会成功，但只有想法没有行动的人，也不会有任何成就!
     members: all boys
     tell: 400-900-2165
+    module: haxiha-gateway-service
