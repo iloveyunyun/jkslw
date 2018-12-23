@@ -187,6 +187,6 @@ swagger:
     version: 1.1.0.RELEASE
 info:
     group: 君凯技术中心
-    description: 人生快不快乐看心情，幸不幸福看心态。漫长人生中，什么都不是一眼看到头的，一时的春风得意算不了什么，一时的失败也不能算数。觉得自己做得到和做不到，只在一念之间。
-    members: all boys
+    description: 把不愉快的过往，在无人的角落，尘封弃置!告诉自己：我可以不完美，但一定要真实;我可以不富有，但要懂得知足快乐。
     tell: 400-900-2165
+    module: haxiha-member-service
