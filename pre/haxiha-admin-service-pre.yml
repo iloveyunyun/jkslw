@@ -167,7 +167,7 @@ spring:
         sampler:
             percentage: 1
     zipkin:
-        base-url: http://${spring.cloud.client.ipAddress}:7046
+        base-url: http://172.16.5.22:7046
         #本项目服务名
         service:
            name: ${spring.application.name}
