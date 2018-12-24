@@ -1,3 +1,7 @@
+eureka:
+    instance:
+        prefer-ip-address: true
+        instance-id: ${spring.cloud.client.ipAddress}:${server.port}:${spring.application.name}
 info:
     group: 君凯技术中心
     description: 我的天啊，这是干个锤子咯！！！！！！！！！！！
