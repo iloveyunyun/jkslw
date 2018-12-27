@@ -1,13 +1,13 @@
 elasticsearch:
     cluster:
         name: haxiha-es
-    ip: 172.16.1.241
+    ip: 172.16.1.237,172.16.1.238,172.16.1.239
     pool: 10
-    port: 9301
+    port: 8301
 elastic:
     zk:
         #连接Zookeeper服务器的列表. 包括IP地址和端口号
-        serverLists: 172.16.1.244:2181
+        serverLists: 172.16.1.237:1181,172.16.1.238:1181,172.16.1.239:1181
         #命名空间.
         namespace: dubbo
         #连接Zookeeper的权限令牌. 缺省为不需要权限验证.
@@ -86,8 +86,8 @@ spring:
                         partitioned: false
             kafka:
                  binder:
-                    brokers: 172.16.1.244:9092
-                    zk-nodes: 172.16.1.244:2181
+                    brokers: 172.16.1.237:9191,172.16.1.238:9191,172.16.1.239:9191
+                    zk-nodes: 172.16.1.237:1181,172.16.1.238:1181,172.16.1.239:1181
                     minPartitionCount: 1
                     autoCreateTopics: true
                     autoAddPartitions: true   
@@ -139,7 +139,7 @@ spring:
     redis:
         database: 0
         cluster:
-            nodes: 172.16.1.153:6386,172.16.1.153:6385,172.16.1.152:6383,172.16.1.152:6384,172.16.1.154:6388,172.16.1.154:6387,172.16.1.151:6382,172.16.1.151:6381
+            nodes: 172.16.1.237:6381,172.16.1.237:6382,172.16.1.238:6383,172.16.1.238:6384,172.16.1.239:6385,172.16.1.239:6386
         password:
         pool:
             max-active: 8
@@ -150,7 +150,7 @@ spring:
 
 
     kafka:
-        bootstrap-servers: 172.16.1.244:9092
+        bootstrap-servers: 172.16.1.237:9191,172.16.1.238:9191,172.16.1.239:9191
         custom-producer:
             acks: all
             retries: 10
