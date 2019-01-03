@@ -132,8 +132,8 @@ spring:
         testWhileIdle: 'true  '
         timeBetweenEvictionRunsMillis: 60000.0
         type: com.alibaba.druid.pool.DruidDataSource
-        url: jdbc:mysql://172.16.1.101:3306/spring?useUnicode=true&characterEncoding=UTF-8
-        username: root
+        url: jdbc:mysql://172.16.1.237:3306/spring?useUnicode=true&characterEncoding=UTF-8
+        username: admin
         validationQuery: 'SELECT 1 FROM DUAL  '
 
     redis:
